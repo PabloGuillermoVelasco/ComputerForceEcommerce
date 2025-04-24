@@ -1,0 +1,77 @@
+.category-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.icon {
+    font-size: 100px;
+    color: #ff6b00;
+}
+
+.banner-cta {
+    background-image: url(images/ctabackground.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-cta h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+}
+
+.btn-orange {
+    background-color: #ff6b00;
+    color: white;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e65c00;
+    /* un poco más oscuro al pasar el mouse */
+    color: white;
+}
+
+.card {
+    border-color: #ff6b00;
+}
+
+.list-group-item {
+    border-color: #ff6b00;
+}
+
+.form-control:focus {
+    border-color: #ff6b00;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 0, 0.25);
+}
+
